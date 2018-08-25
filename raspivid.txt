@@ -1,0 +1,5 @@
+# To quickly start taking video with the raspberry pi camera at cmd prompt:
+$ raspivid -o movie1.h264 -t 5000
+-o is output
+-t is time in millisecs, so 5000 is 5 secs
+
